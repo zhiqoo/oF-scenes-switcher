@@ -4,6 +4,9 @@
 #include "baseScene.hpp"
 #include "sceneA.hpp"
 #include "sceneB.hpp"
+#include "sceneC.hpp"
+#include "sceneD.hpp"
+#include "sceneE.hpp"
 
 class ofApp : public ofBaseApp{
 

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		580BACEB22949BE9007644EA /* sceneC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 580BACE922949BE9007644EA /* sceneC.cpp */; };
+		580BACEE22949BF3007644EA /* sceneD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 580BACEC22949BF3007644EA /* sceneD.cpp */; };
+		580BACF122949C01007644EA /* sceneE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 580BACEF22949C01007644EA /* sceneE.cpp */; };
 		5814BB2D228970800048C7AD /* baseScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5814BB2B228970800048C7AD /* baseScene.cpp */; };
 		5814BB30228970CE0048C7AD /* sceneA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5814BB2E228970CE0048C7AD /* sceneA.cpp */; };
 		5814BB33228973CF0048C7AD /* sceneB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5814BB31228973CF0048C7AD /* sceneB.cpp */; };
@@ -27,6 +30,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		580BACE922949BE9007644EA /* sceneC.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sceneC.cpp; sourceTree = "<group>"; };
+		580BACEA22949BE9007644EA /* sceneC.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = sceneC.hpp; sourceTree = "<group>"; };
+		580BACEC22949BF3007644EA /* sceneD.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sceneD.cpp; sourceTree = "<group>"; };
+		580BACED22949BF3007644EA /* sceneD.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = sceneD.hpp; sourceTree = "<group>"; };
+		580BACEF22949C01007644EA /* sceneE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sceneE.cpp; sourceTree = "<group>"; };
+		580BACF022949C01007644EA /* sceneE.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = sceneE.hpp; sourceTree = "<group>"; };
 		5814BB2B228970800048C7AD /* baseScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = baseScene.cpp; sourceTree = "<group>"; };
 		5814BB2C228970800048C7AD /* baseScene.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = baseScene.hpp; sourceTree = "<group>"; };
 		5814BB2E228970CE0048C7AD /* sceneA.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sceneA.cpp; sourceTree = "<group>"; };
@@ -548,6 +557,12 @@
 				5814BB2F228970CE0048C7AD /* sceneA.hpp */,
 				5814BB31228973CF0048C7AD /* sceneB.cpp */,
 				5814BB32228973CF0048C7AD /* sceneB.hpp */,
+				580BACE922949BE9007644EA /* sceneC.cpp */,
+				580BACEA22949BE9007644EA /* sceneC.hpp */,
+				580BACEC22949BF3007644EA /* sceneD.cpp */,
+				580BACED22949BF3007644EA /* sceneD.hpp */,
+				580BACEF22949C01007644EA /* sceneE.cpp */,
+				580BACF022949C01007644EA /* sceneE.hpp */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;
@@ -650,10 +665,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				580BACEB22949BE9007644EA /* sceneC.cpp in Sources */,
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
 				5814BB2D228970800048C7AD /* baseScene.cpp in Sources */,
 				5814BB33228973CF0048C7AD /* sceneB.cpp in Sources */,
 				5814BB30228970CE0048C7AD /* sceneA.cpp in Sources */,
+				580BACEE22949BF3007644EA /* sceneD.cpp in Sources */,
+				580BACF122949C01007644EA /* sceneE.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

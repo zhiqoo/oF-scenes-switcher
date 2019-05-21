@@ -10,6 +10,15 @@ void ofApp::setup(){
     baseScene *sb = new sceneB();
     scenes.push_back(sb);
     
+    baseScene *sc = new sceneB();
+    scenes.push_back(sc);
+    
+    baseScene *sd = new sceneB();
+    scenes.push_back(sd);
+    
+    baseScene *se = new sceneB();
+    scenes.push_back(se);
+    
     currentScene = 0;
     scenes[currentScene]->setup();
 
