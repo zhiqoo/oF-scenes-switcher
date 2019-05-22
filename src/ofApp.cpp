@@ -10,17 +10,19 @@ void ofApp::setup(){
     baseScene *sb = new sceneB();
     scenes.push_back(sb);
     
-    baseScene *sc = new sceneB();
+    baseScene *sc = new sceneC();
     scenes.push_back(sc);
     
-    baseScene *sd = new sceneB();
+    baseScene *sd = new sceneD();
     scenes.push_back(sd);
     
-    baseScene *se = new sceneB();
+    baseScene *se = new sceneE();
     scenes.push_back(se);
     
     currentScene = 0;
     scenes[currentScene]->setup();
+    
+    std::cout << currentScene << endl;
 
 }
 
